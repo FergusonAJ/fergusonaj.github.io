@@ -3,7 +3,7 @@ description: Just my personal site :^)
 show_downloads: false
 theme: jekyll-theme-minima
 repository: FergusonAJ/fergusonaj.github.io
-baseurl: 
+baseurl: /
 
 minima:
 # Minima date format.
