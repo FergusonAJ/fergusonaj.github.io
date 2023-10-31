@@ -7,4 +7,5 @@ gem 'webrick'
 group :jekyll_plugins do
   gem 'jekyll-asciidoc', '~> 2.1.1'
   gem 'jekyll-theme-minimal', '~> 0.2.0'
+  gem 'minima', '~> 0.1.0'
 end
