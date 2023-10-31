@@ -2,6 +2,7 @@ title: Austin J Ferguson
 description: Just my personal site :^)
 show_downloads: false
 theme: jekyll-theme-minima
+repository: https://github.com/FergusonAJ/fergusonaj.github.io
 
 minima:
 # Minima date format.
