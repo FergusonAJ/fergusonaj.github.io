@@ -3,6 +3,7 @@ description: Just my personal site :^)
 show_downloads: false
 theme: jekyll-theme-minima
 repository: FergusonAJ/fergusonaj.github.io
+baseurl: 
 
 minima:
 # Minima date format.
@@ -14,7 +15,7 @@ minima:
 #
   social_links:
     - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=sqJjSc0AAAAJ" }
-    - { platform: github,         user_url: "https://github.com/jekyll/FergusonAJ" }
+    - { platform: github,         user_url: "https://github.com/FergusonAJ" }
     - { platform: twitter,        user_url: "https://twitter.com/FergusonAJ17" }
     - { platform: linkedin,       user_url: "https://www.linkedin.com/in/austin-ferguson-0b5953125" }
 #   - { platform: devto,          user_url: "https://dev.to/jekyll" }
