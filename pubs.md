@@ -3,6 +3,8 @@ layout: page
 title: Publications
 ---
 
+## Publications
+
 Publication info is also available on [Google Scholar](https://scholar.google.com/citations?hl=en&user=sqJjSc0AAAAJ)!
 
 ### Peer-reviewed journal articles
