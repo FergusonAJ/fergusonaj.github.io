@@ -35,8 +35,9 @@ minima:
 # order as they should show up.
 #
 header_pages:
-  - pubs.md
+  - about.md
   - research.md
+  - pubs.md
 
 # Set to `true` to show excerpts on the homepage.
 #
