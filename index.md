@@ -3,7 +3,7 @@ layout: page
 title: index
 ---
 
-## Welcome :^)
+## Welcome! :^)
 
 ![An old headshot of me! (2018)]({{"/assets/images/headshot_circle.png"}}){: .float-right}
 

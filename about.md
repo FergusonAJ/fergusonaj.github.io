@@ -27,6 +27,9 @@ If you want a fuller picture of my professional background, take a look at my [C
   - Elevator pitch: I experimentally test evolutionary theory via digital evolution, which allows for timescales and experimental controls that are difficult or intractable in natural systems. Using this framework, my PhD work has focused on evolvability and historical contingency in evolution. 
   - [More information available on my research page!]({{"/research.html"}})
 
+- **Contact info**
+  - MSU email: fergu358@msu.edu
+
 - **Background and Misc. Info**
   - Grew up near [Otway, Ohio](https://en.wikipedia.org/wiki/Otway,_Ohio)
   - Non-work interests
@@ -38,3 +41,4 @@ If you want a fuller picture of my professional background, take a look at my [C
       - Cycling
     - Games (video, board, or tabletop!)
   - I rely too heavily on lists (with lots of indentation), and exclamation points!
+
