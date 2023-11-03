@@ -24,7 +24,7 @@ If you want a fuller picture of my professional background, take a look at my [C
     - Graduation date: May 2018
 
 - **Research**
-  - Elevator pitch: I experimentally test evolutionary theory via digital evolution, which allows for timescales and experimental controls that are difficult or intractable in natural systems. Using this framework, my PhD work has focused on evolvability and historical contingency in evolution. 
+  - Elevator pitch: I experimentally test evolutionary dynamics via digital evolution, which allows for timescales and experimental controls that are difficult or intractable in natural systems. Using this framework, my PhD work has focused on evolvability and historical contingency in evolution. 
   - [More information available on my research page!]({{"/research.html"}})
 
 - **Contact info**

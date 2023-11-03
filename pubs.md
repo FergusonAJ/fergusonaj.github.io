@@ -5,7 +5,7 @@ title: Publications
 
 ## Publications
 
-Publication info is also available on [Google Scholar](https://scholar.google.com/citations?hl=en&user=sqJjSc0AAAAJ)!
+Publication info is also available on [Google Scholar](https://scholar.google.com/citations?hl=en&user=sqJjSc0AAAAJ) and on my CV [(pdf)]({{"docs/ferguson_curriculum_vita.pdf"}})!
 
 ### Peer-reviewed journal articles
 - Alexander Lalejini, **Austin J. Ferguson**, Nkrumah A. Grant, and Charles Ofria(2021). [Adaptive Phenotypic Plasticity Stabilizes Evolution in Fluctuating Environments](https://www.frontiersin.org/articles/10.3389/fevo.2021.715381). Frontiers in Ecology and Evolution, Vol. 9. [(pdf)]({{ "/docs/pubs/lalejini_et_al_2021_plasticity_stabilizes_evo_in_fluctuating_envs.pdf" }}) (2022 ISAL Award for Outstanding Student Publication) 
