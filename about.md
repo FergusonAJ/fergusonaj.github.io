@@ -27,8 +27,11 @@ If you want a fuller picture of my professional background, take a look at my [C
   - Elevator pitch: I experimentally test evolutionary dynamics via digital evolution, which allows for timescales and experimental controls that are difficult or intractable in natural systems. Using this framework, my PhD work has focused on evolvability and historical contingency in evolution. 
   - [More information available on my research page!]({{"/research.html"}})
 
-- **Contact info**
+- **Contact info and accounts**
   - MSU email: fergu358@msu.edu
+  - [Google Scholar ](https://scholar.google.com/citations?user=sqJjSc0AAAAJ)
+  - [GitHub](https://github.com/FergusonAJ)
+  - [Twitter](https://twitter.com/FergusonAJ17)
 
 - **Background and Misc. Info**
   - Grew up near [Otway, Ohio](https://en.wikipedia.org/wiki/Otway,_Ohio)
