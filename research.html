@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Research | Austin J Ferguson</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Research" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Just my personal site :^)" />
+<meta property="og:description" content="Just my personal site :^)" />
+<link rel="canonical" href="https://github.com/pages/FergusonAJ/research.html" />
+<meta property="og:url" content="https://github.com/pages/FergusonAJ/research.html" />
+<meta property="og:site_name" content="Austin J Ferguson" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Research" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Just my personal site :^)","headline":"Research","url":"https://github.com/pages/FergusonAJ/research.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Austin J Ferguson</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about.html">About Me</a><a class="page-link" href="/research.html">Research</a><a class="page-link" href="/pubs.html">Publications</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <!--
+  <header class="post-header">
+    <h1 class="post-title">Research</h1>
+  </header>
+  -->
+
+  <div class="post-content">
+    <h2 id="research">Research</h2>
+
+<p>Overall, I use digital evolution (evolving computer programs) to study evolutionary dynamics. 
+I am broadly interested in the evolution of complexity, and my current projects focus on historical contingency in evolution.</p>
+
+<p>I do not use digital evolution to <em>replace</em> traditional wet lab experiments, but to <em>supplement</em> them. 
+My goal is synergistic collaboration, where digital evolution experiments are used 1) to run preliminary experiments that would be too risky to justify in a wet lab, 2) to perform work at scales not currently possible in wet lab experiments, and 3) to perform experimental controls that are infeasible in wet lab experiments. 
+My favorite example, which is of the last variety, is <a href="https://www.pnas.org/doi/abs/10.1073/pnas.1313424110">Art Covert and collaborators’ work that <em>reverted all deleterious mutations</em> to empirically test if deleterious mutations were important to evolving populations</a>.</p>
+
+<!--
+Following those ideas, my work takes two main approaches: 
+  - Boiling a problem down to its most basic components to test which aspects are crucial to the evolutionary dynamics in question
+  - Providing a baseline by showing that focal evolutionary dynamics are present in a digital system (e.g., Avida), which can then be compared to both simpler models and to natural systems
+-->
+
+<p>Below, I have outlined some of my current projects and interests. 
+The goal is to explain my thinking and help place my <a href="/pubs.html">publications</a> in context.</p>
+
+<hr />
+
+<h3 id="historical-contingency-potentiation-and-replaying-evolution">Historical contingency, potentiation, and replaying evolution</h3>
+
+<!--
+Let's say we have a fitness landscape, and we are starting multiple replicate populations at a given point in that landscape. 
+As these populations evolve, we would expect some divergence as populations follow different paths through the landscape. 
+-->
+
+<div class="research-image">
+  <p><img src="/assets/images/research/replay_figure.png" alt="Concept of replay experiments, adapted from (Ferguson and Ofria, 2023)" />
+The concept of replay replicates, adapted from <a href="https://direct.mit.edu/isal/proceedings/isal/35/71/116915">(Ferguson and Ofria, 2023)</a>.
+Arrows in the left panes indicate evolutionary replicates.</p>
+</div>
+
+<p>At any given point, we can summarize the potential future evolution of a population as a combination of adaptation, chance, and history <a href="https://www.science.org/doi/abs/10.1126/science.7809610">(Travisano et al., 1995)</a>.
+With adaptation, we expect selection to favor more fit organisms. 
+Chance comes into play via random mutations, genetic drift, etc. 
+Here, we take history to mean everything before the current “starting point” of continued evolution.</p>
+
+<p>I ask question about what happens as history changes (e.g., moving down a lineage). 
+Examples include:</p>
+<ul>
+  <li>When looking at a particular outcome, did the probability of that outcome change slowly over the course of the lineage, or were there steps that drastically altered that probability?</li>
+  <li>At what point did the evolutionary outcome of the population become inevitable?</li>
+  <li>How does the effect of history coincide with the traversal of the fitness landscape?</li>
+</ul>
+
+<p>So far, my work has looked at the effect of history on the potentiation of a particular trait – the likelihood that particular trait eventually evolves. 
+I quantify potentiation of this trait over time by performing analytic replay experiments.
+By seeding new evolutionary replicates along a lineage, we can see how many replicates at each time point evolved the behavior, showing us how potentiation of that trait varied over time. 
+Both the concept of potentiation and the idea of analytic replay experiments come from <a href="https://www.pnas.org/doi/abs/10.1073/pnas.0803151105">(Blount et al., 2008)</a>, and I highly recommend the review of how reserachers have examined historical contingency in evolution <a href="https://www.science.org/doi/full/10.1126/science.aam5979">(Blount et al., 2018)</a>.</p>
+
+<p>So far, Charles and I have used analytic replays to investigate the evolution of associative learning in Avida <a href="https://direct.mit.edu/isal/proceedings/isal/35/71/116915">(Ferguson and Ofria, 2023)</a> <a href="/docs/pubs/ferguson_ofria_2023_potentiating_mutations_facilitate_learning.pdf">(pdf)</a>. We found that potentiation can increase drastically, even with a single mutation. 
+Now we’re working on expanding that study to look at trends across many more replicates, as well as simplifying things to examine potentiation in systems that are faster and easier to analyze.</p>
+
+<p style="clear:right"></p>
+<hr />
+
+<h3 id="the-evolution-of-learning-and-phenotypic-plasticity">The evolution of learning and phenotypic plasticity</h3>
+
+<div class="research-image">
+  <p><img src="/assets/images/research/plasticity_setup_scaled.png" alt="Overview of the plasticity environment setup, adapted from (Lalejini et al., 2021)" />
+Conceptual figure from <a href="https://www.frontiersin.org/articles/10.3389/fevo.2021.715381">(Lalejini et al., 2021)</a> showing the different environments. 
+Plastic organisms needed to switch their task phenotypes to handle ENV-A and ENV-B.</p>
+</div>
+
+<p>As mentioned above, I am broadly interested in the evolution of complexity. 
+An interest in the evolution of learning was actually what brought me to grad school.</p>
+
+<p>While my current work is investigating historical contingency, it is doing so in an associative learning domain. 
+While I make no claims about how associative learning arose in natural organisms, this does allow us to ask questions about what conditions are suitable for associative learning to arise. 
+This was inspired by work done by Pontes et al. on the evolution of associative learning in Avida <a href="https://www.journals.uchicago.edu/doi/full/10.1086/706252">(2020)</a>.
+In particular, my work has started to analyze the relationship between learning and pre-learning behaviors, such as correcting for errors.</p>
+
+<p>I consider learning a subset of phenotypic plasticity, and I am interested in how plasticity arises and what effects it has on further evolution. 
+Collaborators and I found evidence that, in a cyclical environment, plasticity stabilizes evolution such that the evolutionary dynamics closely resemble those in a static environment <a href="https://www.frontiersin.org/articles/10.3389/fevo.2021.715381">(Lalejini et al., 2021)</a>. 
+I aim to continue this line of research after my PhD, further investigating how plasticity (and perhaps learning) can influence the evolution of additional complex behaviors.</p>
+
+<p style="clear:right"></p>
+<hr />
+
+<h3 id="major-evolutionary-transitions">Major evolutionary transitions</h3>
+
+<div class="research-image">
+  <p><img src="/assets/images/research/rogue_cell.png" alt="An example multicellular organism with cheaters, from the system in  (Skocelas et al., 2022)" />
+An example multi-cellular organism with cooperative (grayscale) and cheating (red) cells.</p>
+</div>
+
+<p>How did multi-cellular organisms arise from their single-celled predecessors?
+This is just one example of a major evolutionary transition. 
+While the work I have done in major transitions has been limited, this is something I hope to return to soon.</p>
+
+<p>Interested in how robustness and cooperation emerge in multi-cellular organisms, we found that spatial constraint alone can be sufficient for rudimentary robustness to evolve <a href="https://direct.mit.edu/isal/proceedings/isal/34/52/112244">(Skocelas et al., 2022)</a>.
+Indeed, the larger the organism, the more higher the pressure for robustness (akin to Peto’s paradox).</p>
+
+<p>Further inspiration for the value of digital evolution in studying major evolutionary transitions can be found in some of my favorite works, including the Dirty Work Hypothesis <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001858">(Goldsby et al., 2014)</a> and the new dishtiny system for studying fraternal transitions in individuality <a href="https://direct.mit.edu/artl/article/25/2/117/2929">(Moreno and Ofria, 2019)</a>.</p>
+
+<p style="clear:right"></p>
+<hr />
+
+<h3 id="software-and-standards">Software and standards</h3>
+
+<p>While my research interests are firmly rooted in evolutionary biology, the computer science side of me still enjoys writing software, especially <em>versatile open-source software that promotes collaboration</em>.</p>
+
+<p>All of my current experiments are conducted in the <a href="https://github.com/mercere99/MABE2">Modular Agent Based Evolver 2 (MABE2)</a>. 
+MABE2 allows users to construct digital evolution and evolutionary computation programs through a simple scripting language.
+Our goal is to make it incredibly simple to replicate and tweak almost any computational evolution experiment while being performant thanks to C++ under the hood.
+I am currently porting the digital evolution platform <a href="https://github.com/devosoft/avida">Avida</a> to MABE2. 
+If you’re evolving neural substrates (Markov brains, artificial neural networks, etc.), check out the <a href="https://github.com/hintzelab/MABE/">original MABE</a>!</p>
+
+<p>MABE2 is built off of <a href="https://github.com/devosoft/Empirical/">Empirical</a>, a library for writing scientific software in C++. Empirical includes many basic components (pointer tracking, STL replacements with better debugging, etc.) as well as specifics such as evolutionary computation tools and support to compile for the web via Emscripten!</p>
+
+<p>It is impractical, however, to expect all researchers to use the same code base for their experiments. 
+As such, the first project I joined in grad school was on Data Standards for Artificial Life <a href="https://direct.mit.edu/isal/proceedings/isal2019/31/507/99150">(paper)</a> <a href="https://github.com/alife-data-standards/alife-data-standards">(GitHub)</a>. 
+These proposed standards would ensure that, regardless of how it was gathered, data following the standard could leverage all standards-compliant tools.</p>
+
+<p>Beyond these major projects, I’m always tinkering to improve my computational pipelines. 
+This includes things like experiment pipelines and <a href="https://github.com/FergusonAJ/roll_q">rolling queues</a> on <a href="https://icer.msu.edu/about">MSU’s high performaing computing cluster</a> (which is wonderful!), to simple Python packages I’ve pieced released from time to time <a href="https://github.com/FergusonAJ/pyvarco">(pyvarco)</a>, and to a <a href="https://github.com/FergusonAJ/universal_avida_tests">framework to test your Avida implementation</a>.</p>
+
+<p>Beyond the software I’ve written / helped write. My current obsession is network-based notetaking in <a href="https://obsidian.md/">Obsidian</a>.</p>
+
+<p style="clear:right"></p>
+<hr />
+
+<h3 id="miscellaneous-evolution-projects">Miscellaneous evolution projects</h3>
+
+<div class="research-image">
+  <p><img src="/assets/images/research/rank_epistasis_diagram_scaled.png" alt="An illustration of low and high rank epistasis" />
+Example of low and high epistasis, as determined by the change in mutant rankings.</p>
+</div>
+
+<p>Rank epistatis started as a class project but is now something I’d like to get back to. 
+Instead of relying on fitness baselines, which can be tricky to calculate in natural organisms, we used the relative ordering of mutants to measure the epistasis of genetic sites <a href="https://direct.mit.edu/isal/proceedings/isal2020/32/160/98444">(Ackles et al., 2020)</a>.
+If the ranking of mutants drastically changes when a site is changed, we can infer that epistasis must be at play.</p>
+
+<p>Most of my current work uses digital evolution to refine our understanding of evolution itself. 
+However, previous work has looked into the selection schemes used in evolutionary computation. Specifically, we analyzed the effects of applying <a href="https://link.springer.com/chapter/10.1007/978-3-030-39958-0_1">subsampling to lexicase selection</a>.</p>
+
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        © 2023 Austin J Ferguson (he/him) <br/>
+        fergu358@msu.edu <br/>
+        PhD Candidate, Michigan State University
+      </div>
+      <div class="footer-col">
+        <div class="social-links"><ul class="social-media-list"><li>
+  <a rel="me" href="https://scholar.google.com/citations?user=sqJjSc0AAAAJ" target="_blank" title="google_scholar">
+    <svg class="svg-icon grey">
+      <use xlink:href="/assets/minima-social-icons.svg#google_scholar"></use>
+    </svg>
+  </a>
+</li>
+<li>
+  <a rel="me" href="https://github.com/FergusonAJ" target="_blank" title="github">
+    <svg class="svg-icon grey">
+      <use xlink:href="/assets/minima-social-icons.svg#github"></use>
+    </svg>
+  </a>
+</li>
+<li>
+  <a rel="me" href="https://twitter.com/FergusonAJ17" target="_blank" title="twitter">
+    <svg class="svg-icon grey">
+      <use xlink:href="/assets/minima-social-icons.svg#twitter"></use>
+    </svg>
+  </a>
+</li>
+<li>
+  <a rel="me" href="https://www.linkedin.com/in/austin-ferguson-0b5953125" target="_blank" title="linkedin">
+    <svg class="svg-icon grey">
+      <use xlink:href="/assets/minima-social-icons.svg#linkedin"></use>
+    </svg>
+  </a>
+</li>
+</ul>
+</div>
+      </div>
+    </div>
+  </div>
+
+</footer>
+</body>
+
+</html>
