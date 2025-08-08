@@ -10,14 +10,17 @@ If you want a fuller picture of my professional background, take a look at my [C
 ![A picture of me next to a pond full of lilies in Ueno Park, Tokyo, Japan (July 2023)]({{"/assets/images/ueno_park_with_lillies.jpg"}}){: .float-right}
 
 - **Current position**
+  - Assistant Professor at [Grand Valley State University](https://www.gvsu.edu/)
+    - Department: Computer Science
+    - College: [College of Computing](https://www.gvsu.edu/computing/)
+    - Started August 2024
+- **Education**
   - Ph.D. Candidate at [Michigan State University](https://msu.edu/).
     - Primary department: [Computer Science and Engineering (CSE)](http://cse.msu.edu/ ).
     - Secondary program: [Ecology, Evolution, and Behavior Program (EEB)](https://eeb.msu.edu/).
     - Advisor: [Dr. Charles Ofria](https://ofria.com/)
     - Lab: [The Digital Evolution Laboratory](http://devolab.org/)
-    - Timeline: Started August 2018, expected to finish May 2024
-
-- **Prior education**
+    - Date finished: June 2024
   - Bachelor's from [Shawnee State University](http://shawnee.edu/)
     - Major 1: [Digital Simulation and Gaming Engineering](http://www.shawnee.edu/academics/engineering-technologies/majors/digital-simulation-and-gaming.aspx)
     - Major 2: [Computer Engineering](https://www.shawnee.edu/areas-study/college-professional-studies/engineering-technologies/bachelor-degrees/computer-engineering)
@@ -28,10 +31,9 @@ If you want a fuller picture of my professional background, take a look at my [C
   - [More information available on my research page!]({{"/research.html"}})
 
 - **Contact info and accounts**
-  - MSU email: fergu358@msu.edu
+  - MSU email: ferguaus@gvsu.edu
   - [Google Scholar ](https://scholar.google.com/citations?user=sqJjSc0AAAAJ)
   - [GitHub](https://github.com/FergusonAJ)
-  - [Twitter](https://twitter.com/FergusonAJ17)
 
 - **Background and Misc. Info**
   - Grew up near [Otway, Ohio](https://en.wikipedia.org/wiki/Otway,_Ohio)
