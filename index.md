@@ -5,7 +5,7 @@ title: Home
 
 ## Welcome! :^)
 
-![Headshot of me! (2024)]({{"/assets/images/gvsu_headshot_circle.jpg"}}){: width="200px" .float-right}
+![Headshot of me! (2024)]({{"/assets/images/gvsu_headshot_circle.png"}}){: width="25%" .float-right}
 
 I'm Austin, and I'm an Assistant Professor of Computer Science at [Grand Valley State University](https://www.gvsu.edu/).
 
