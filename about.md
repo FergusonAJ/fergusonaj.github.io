@@ -15,7 +15,7 @@ If you want a fuller picture of my professional background, take a look at my [C
     - College: [College of Computing](https://www.gvsu.edu/computing/)
     - Started August 2024
 - **Education**
-  - Ph.D. Candidate at [Michigan State University](https://msu.edu/).
+  - Ph.D. from [Michigan State University](https://msu.edu/).
     - Primary department: [Computer Science and Engineering (CSE)](http://cse.msu.edu/ ).
     - Secondary program: [Ecology, Evolution, and Behavior Program (EEB)](https://eeb.msu.edu/).
     - Advisor: [Dr. Charles Ofria](https://ofria.com/)
@@ -27,11 +27,11 @@ If you want a fuller picture of my professional background, take a look at my [C
     - Graduation date: May 2018
 
 - **Research**
-  - Elevator pitch: I experimentally test evolutionary dynamics via digital evolution, which allows for timescales and experimental controls that are difficult or intractable in natural systems. Using this framework, my PhD work has focused on evolvability and historical contingency in evolution. 
+  - Elevator pitch: I use agent-based computational models to empirically test questions about evolutionary theory that wet-lab researchers cannot test due to issues of timescales and experimental controls. Specifically, I've recently focused on measuring how short-term changes in a population can having rippling, long-term evolutionary consequences. 
   - [More information available on my research page!]({{"/research.html"}})
 
 - **Contact info and accounts**
-  - MSU email: ferguaus@gvsu.edu
+  - GVSU email: ferguaus (at) gvsu.edu
   - [Google Scholar ](https://scholar.google.com/citations?user=sqJjSc0AAAAJ)
   - [GitHub](https://github.com/FergusonAJ)
 
@@ -40,10 +40,10 @@ If you want a fuller picture of my professional background, take a look at my [C
   - Non-work interests
     - Plants! (I have too many succulents!) 
     - Game development (I used to do tons of game jams, and would love to get back into them!)
+        - Students, I'm always happy to support a student-ran game jam from the faculty side!
     - Sports with friends!
       - Ultimate frisbee
       - Basketball
       - Cycling
     - Games (video, board, or tabletop!)
-  - I rely too heavily on lists (with lots of indentation), and exclamation points!
 

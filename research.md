@@ -5,8 +5,8 @@ title: Research
 
 ## Research
 
-Overall, I use digital evolution (evolving computer programs) to study evolutionary dynamics. 
-I am broadly interested in the evolution of complexity, and my current projects focus on historical contingency in evolution.
+Overall, I use digital evolution (evolving computer programs) to study evolutionary theory.
+Currently, my main research area is _historical contingency_. I am studying how a short-term change in a population (e.g., a single mutation, a genetic bottleneck, etc) can dramatically alter long-term evolutionary outcomes. 
 
 I do not use digital evolution to _replace_ traditional wet lab experiments, but to _supplement_ them. 
 My goal is synergistic collaboration, where digital evolution experiments are used 1) to run preliminary experiments that would be too risky to justify in a wet lab, 2) to perform work at scales not currently possible in wet lab experiments, and 3) to perform experimental controls that are infeasible in wet lab experiments. 
